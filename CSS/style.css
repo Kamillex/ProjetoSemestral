@@ -1,0 +1,1057 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: normal;
+}
+@font-face{
+    font-family:"fontMarvel";
+    src:url(../FONT/Marvel/Bebas-Regular.ttf);
+}
+@font-face{
+    font-family: "stark";
+    src:url(../FONT/stark/Stark.otf)
+}
+.container{
+    width: 100%;
+    height: 6343px;
+}
+
+/*MENU*/
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #901B25;
+    position: fixed;
+}
+.img1{
+    width: 110px;
+    position: absolute;
+}
+.home{
+    width: 100px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    font-family: stark;
+    font-size: 30px;
+}
+.home:hover{
+    color:#ED1D24
+}
+a{
+    text-decoration: none;
+}
+.a{
+    width: 50%;
+}
+.b{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img2{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.c{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.d{
+    width: 50%;
+}
+.e{
+    font-family: "stark";
+    list-style-type: disc;
+    width: 80%;
+    margin-left: 12px;
+}
+.f{
+    width: 1450px;
+}
+.g{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.j{
+    display: flex;
+    width: 30px;
+    margin-left: 70px;
+}
+.j:hover{
+    transform: scale(1.2);
+}
+.k{
+   display: flex;
+}
+.l{
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.m{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-family:"fontMarvel";
+    font-size: 100px;
+    text-align: center;
+}
+h3{
+    font-family: "stark";
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.divisao{
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.input2{
+    background-color: rgba(0, 0, 0, 0.403);
+    color:white;
+    border: 2px solid #901B25;
+    border-radius: 5px;
+    width: 380px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: #901B25;
+}
+/*COMPUTADOR*/
+@media only sreaen and(max-width:1400px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+        font-weight: normal;
+    }
+    @font-face{
+        font-family:"fontMarvel";
+        src:url(../FONT/Marvel/Bebas-Regular.ttf);
+    }
+    @font-face{
+        font-family: "stark";
+        src:url(../FONT/stark/Stark.otf)
+    }
+    .container{
+        width: 100%;
+        height: 6343px;
+    }
+    
+    /*MENU*/
+    .menu{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #901B25;
+        position: fixed;
+    }
+    .img1{
+        width: 110px;
+        position: absolute;
+    }
+    .home{
+        width: 100px;
+        color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        font-family: stark;
+        font-size: 30px;
+    }
+    .home:hover{
+        color:#ED1D24
+    }
+    a{
+        text-decoration: none;
+    }
+    .a{
+        width: 50%;
+    }
+    .b{
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .c{
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .d{
+        width: 50%;
+    }
+    .e{
+        font-family: "stark";
+        list-style-type: disc;
+        width: 80%;
+        margin-left: 12px;
+    }
+    .f{
+        width: 1450px;
+    }
+    .g{
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .h{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .i{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .j{
+        display: flex;
+        width: 30px;
+        margin-left: 70px;
+    }
+    .j:hover{
+        transform: scale(1.2);
+    }
+    .k{
+       display: flex;
+    }
+    .l{
+        height: 260px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .m{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    h1{
+        font-family:"fontMarvel";
+        font-size: 100px;
+        text-align: center;
+    }
+    h3{
+        font-family: "stark";
+        font-size: 25px;
+        text-align: justify;
+        margin: 10px;
+    }
+    
+    .divisao{
+        width: 100%;
+        height: 1050px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input2{
+        background-color: rgba(0, 0, 0, 0.403);
+        color:white;
+        border: 2px solid #901B25;
+        border-radius: 5px;
+        width: 380px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: #901B25;
+    }
+}
+
+/*NOTEBOOK*/
+@media only screen and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+        font-weight: normal;
+    }
+    @font-face{
+        font-family:"fontMarvel";
+        src:url(../FONT/Marvel/Bebas-Regular.ttf);
+    }
+    @font-face{
+        font-family: "stark";
+        src:url(../FONT/stark/Stark.otf)
+    }
+    .container{
+        width: 100%;
+        height: 6343px;
+    }
+    
+    /*MENU*/
+    .menu{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #901B25;
+        position: fixed;
+    }
+    .img1{
+        width: 110px;
+        position: absolute;
+    }
+    .home{
+        width: 100px;
+        color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        font-family: stark;
+        font-size: 30px;
+    }
+    .home:hover{
+        color:#ED1D24
+    }
+    a{
+        text-decoration: none;
+    }
+    .a{
+        width: 50%;
+    }
+    .b{
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .c{
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .d{
+        width: 50%;
+    }
+    .e{
+        font-family: "stark";
+        list-style-type: disc;
+        width: 80%;
+        margin-left: 12px;
+    }
+    .f{
+        width: 1450px;
+    }
+    .g{
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .h{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .i{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .j{
+        display: flex;
+        width: 30px;
+        margin-left: 70px;
+    }
+    .j:hover{
+        transform: scale(1.2);
+    }
+    .k{
+       display: flex;
+    }
+    .l{
+        height: 260px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .m{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    h1{
+        font-family:"fontMarvel";
+        font-size: 100px;
+        text-align: center;
+    }
+    h3{
+        font-family: "stark";
+        font-size: 25px;
+        text-align: justify;
+        margin: 10px;
+    }
+    
+    .divisao{
+        width: 100%;
+        height: 1050px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input2{
+        background-color: rgba(0, 0, 0, 0.403);
+        color:white;
+        border: 2px solid #901B25;
+        border-radius: 5px;
+        width: 380px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: #901B25;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width:992px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+        font-weight: normal;
+    }
+    @font-face{
+        font-family:"fontMarvel";
+        src:url(../FONT/Marvel/Bebas-Regular.ttf);
+    }
+    @font-face{
+        font-family: "stark";
+        src:url(../FONT/stark/Stark.otf)
+    }
+    .container{
+        width: 100%;
+        height: 4080px;
+    }
+    
+    /*MENU*/
+    .menu{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #901B25;
+        position: fixed;
+    }
+    .img1{
+        width: 110px;
+        position: absolute;
+    }
+    .home{
+        width: 100px;
+        color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+        font-family: stark;
+        font-size: 25px;
+    }
+    .home:hover{
+        color:#ED1D24
+    }
+    a{
+        text-decoration: none;
+    }
+    .a{
+        width: 50%;
+    }
+    .b{
+        width: 49.95%;
+        height: 392px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .c{
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .d{
+        width: 50%;
+    }
+    .e{
+        font-family: "stark";
+        list-style-type: disc;
+        width: 80%;
+        margin-left: 12px;
+    }
+    .f{
+        width: 1450px;
+    }
+    .g{
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .h{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .i{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .j{
+        display: flex;
+        width: 30px;
+        margin-left: 70px;
+    }
+    .j:hover{
+        transform: scale(1.2);
+    }
+    .k{
+       display: flex;
+    }
+    .l{
+        height: 260px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px;
+    }
+    .m{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    
+    h1{
+        font-family:"fontMarvel";
+        font-size: 80px;
+        text-align: center;
+    }
+    h3{
+        font-family: "stark";
+        font-size: 22px;
+        text-align: justify;
+        margin: 10px;
+    }
+    
+    .divisao{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input2{
+        background-color: rgba(0, 0, 0, 0.403);
+        color:white;
+        border: 2px solid #901B25;
+        border-radius: 5px;
+        width: 380px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: #901B25;
+    }
+}
+
+/*TABLET 2.0*/
+@media only screen and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+        font-weight: normal;
+    }
+    @font-face{
+        font-family:"fontMarvel";
+        src:url(../FONT/Marvel/Bebas-Regular.ttf);
+    }
+    @font-face{
+        font-family: "stark";
+        src:url(../FONT/stark/Stark.otf)
+    }
+    .container{
+        width: 100%;
+        height: 4980px;
+    }
+    
+    /*MENU*/
+    .menu{
+        width: 100%;
+        height: 87px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #901B25;
+        position: fixed;
+    }
+    .img1{
+        width: 80px;
+        position: absolute;
+    }
+    .home{
+        width: 100px;
+        color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10px;
+        font-family: stark;
+        font-size: 20px;
+    }
+    .home:hover{
+        color:#ED1D24
+    }
+    a{
+        text-decoration: none;
+    }
+    .a{
+        width: 50%;
+    }
+    .b{
+        width: 50%;
+        height: 505px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .c{
+        width: 50%;
+        height: 829px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .d{
+        width: 50%;
+    }
+    .e{
+        font-family: "stark";
+        list-style-type: disc;
+        width: 80%;
+        margin-left: 12px;
+    }
+    .f{
+        width: 1450px;
+    }
+    .g{
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 50px;
+    }
+    .h{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    .i{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .j{
+        display: flex;
+        width: 20px;
+        margin-left: 70px;
+    }
+    .j:hover{
+        transform: scale(1.1);
+    }
+    .k{
+       display: flex;
+       height: 150px;
+       width: 190px;
+    }
+    .l{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .m{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+        height: 199px;
+    }
+    
+    h1{
+        font-family:"fontMarvel";
+        font-size: 70px;
+        text-align: center;
+    }
+    h3{
+        font-family: "stark";
+        font-size: 20px;
+        text-align: justify;
+        margin: 10px;
+    }
+    h4{
+        font-size: 13px;
+    }
+    
+    .divisao{
+        width: 768px;
+        height: 830px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input2{
+        background-color: rgba(0, 0, 0, 0.403);
+        color:white;
+        border: 2px solid #901B25;
+        border-radius: 5px;
+        width: 200px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: #901B25;
+    }
+}
+
+/*CELULAR*/
+@media only screen and (max-width:567px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+        font-weight: normal;
+    }
+    @font-face{
+        font-family:"fontMarvel";
+        src:url(../FONT/Marvel/Bebas-Regular.ttf);
+    }
+    @font-face{
+        font-family: "stark";
+        src:url(../FONT/stark/Stark.otf)
+    }
+    .container{
+        width: 100%;
+        height: 4980px;
+    }
+    
+    /*MENU*/
+    .menu{
+        width: 100%;
+        height: 87px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #901B25;
+        position: fixed;
+    }
+    .img1{
+        width: 80px;
+        position: absolute;
+    }
+    .home{
+        width: 100px;
+        color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10px;
+        font-family: stark;
+        font-size: 20px;
+    }
+    .home:hover{
+        color:#ED1D24
+    }
+    a{
+        text-decoration: none;
+    }
+    .a{
+        width: 50%;
+    }
+    .b{
+        width: 50%;
+        height: 505px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .c{
+        width: 50%;
+        height: 829px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .d{
+        width: 50%;
+    }
+    .e{
+        font-family: "stark";
+        list-style-type: disc;
+        width: 80%;
+        margin-left: 12px;
+    }
+    .f{
+        width: 1450px;
+    }
+    .g{
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 50px;
+    }
+    .h{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    .i{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .j{
+        display: flex;
+        width: 20px;
+        margin-left: 70px;
+    }
+    .j:hover{
+        transform: scale(1.1);
+    }
+    .k{
+       display: flex;
+       height: 150px;
+       width: 190px;
+    }
+    .l{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .m{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+        height: 199px;
+    }
+    
+    h1{
+        font-family:"fontMarvel";
+        font-size: 70px;
+        text-align: center;
+    }
+    h3{
+        font-family: "stark";
+        font-size: 20px;
+        text-align: justify;
+        margin: 10px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    
+    .divisao{
+        width: 768px;
+        height: 830px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input2{
+        background-color: rgba(0, 0, 0, 0.403);
+        color:white;
+        border: 2px solid #901B25;
+        border-radius: 5px;
+        width: 200px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    footer{
+        width: 768px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: #901B25;
+    }
+}
+
